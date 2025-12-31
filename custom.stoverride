@@ -1,0 +1,13 @@
+name: "Stash的自定义规则"
+desc: "流媒体与办公分流"
+
+# 规则覆写
+rules:
+  - DOMAIN-KEYWORD,google,🇯🇵6日本-集群-专线(TCP)
+  - DOMAIN-SUFFIX,openai.com,USA
+  - DOMAIN-SUFFIX,chatgpt.com,USA
+  - DOMAIN-SUFFIX,dmm.com,Japan
+  - DOMAIN-SUFFIX,dmm.co.jp,Japan
+  - DOMAIN-SUFFIX,netflix.com,🇭🇰香港_183.87.39.233
+  - DOMAIN-KEYWORD,payoneer,DIRECT
+  - DOMAIN-SUFFIX,test-ipv6.com,DIRECT
